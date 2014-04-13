@@ -22,10 +22,10 @@
       </ConfigOptions>
       <functions>
         <function>
-          <name>canvas_html_add</name>
-          <externalName>canvas_html_add</externalName>
+          <name>gmh_canvas_html_add</name>
+          <externalName>gmh_canvas_html_add</externalName>
           <kind>11</kind>
-          <help>canvas_html_add(x,y,html)</help>
+          <help>gmh_canvas_html_add(x,y,html)</help>
           <returnType>2</returnType>
           <argCount>3</argCount>
           <args>
@@ -35,10 +35,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_remove</name>
-          <externalName>canvas_html_remove</externalName>
+          <name>gmh_canvas_html_remove</name>
+          <externalName>gmh_canvas_html_remove</externalName>
           <kind>11</kind>
-          <help>canvas_html_remove(id)</help>
+          <help>gmh_canvas_html_remove(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
@@ -46,10 +46,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_hide</name>
-          <externalName>canvas_html_hide</externalName>
+          <name>gmh_canvas_html_hide</name>
+          <externalName>gmh_canvas_html_hide</externalName>
           <kind>11</kind>
-          <help>canvas_html_hide(id)</help>
+          <help>gmh_canvas_html_hide(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
@@ -57,10 +57,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_show</name>
-          <externalName>canvas_html_show</externalName>
+          <name>gmh_canvas_html_show</name>
+          <externalName>gmh_canvas_html_show</externalName>
           <kind>11</kind>
-          <help>canvas_html_show(id)</help>
+          <help>gmh_canvas_html_show(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
@@ -68,10 +68,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_get_html</name>
-          <externalName>canvas_html_get_html</externalName>
+          <name>gmh_canvas_html_get_html</name>
+          <externalName>gmh_canvas_html_get_html</externalName>
           <kind>11</kind>
-          <help>canvas_html_get_html(id)</help>
+          <help>gmh_canvas_html_get_html(id)</help>
           <returnType>1</returnType>
           <argCount>1</argCount>
           <args>
@@ -79,10 +79,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_set_html</name>
-          <externalName>canvas_html_set_html</externalName>
+          <name>gmh_canvas_html_set_html</name>
+          <externalName>gmh_canvas_html_set_html</externalName>
           <kind>11</kind>
-          <help>canvas_html_set_html(id,html)</help>
+          <help>gmh_canvas_html_set_html(id,html)</help>
           <returnType>2</returnType>
           <argCount>2</argCount>
           <args>
@@ -91,10 +91,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_get_x</name>
-          <externalName>canvas_html_get_x</externalName>
+          <name>gmh_canvas_html_get_x</name>
+          <externalName>gmh_canvas_html_get_x</externalName>
           <kind>11</kind>
-          <help>canvas_html_get_x(id)</help>
+          <help>gmh_canvas_html_get_x(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
@@ -102,10 +102,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_get_y</name>
-          <externalName>canvas_html_get_y</externalName>
+          <name>gmh_canvas_html_get_y</name>
+          <externalName>gmh_canvas_html_get_y</externalName>
           <kind>11</kind>
-          <help>canvas_html_get_y(id)</help>
+          <help>gmh_canvas_html_get_y(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
@@ -113,10 +113,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_set_x</name>
-          <externalName>canvas_html_set_x</externalName>
+          <name>gmh_canvas_html_set_x</name>
+          <externalName>gmh_canvas_html_set_x</externalName>
           <kind>11</kind>
-          <help>canvas_html_set_x(id,x)</help>
+          <help>gmh_canvas_html_set_x(id,x)</help>
           <returnType>2</returnType>
           <argCount>2</argCount>
           <args>
@@ -125,10 +125,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_set_y</name>
-          <externalName>canvas_html_set_y</externalName>
+          <name>gmh_canvas_html_set_y</name>
+          <externalName>gmh_canvas_html_set_y</externalName>
           <kind>11</kind>
-          <help>canvas_html_set_y(id,y)</help>
+          <help>gmh_canvas_html_set_y(id,y)</help>
           <returnType>2</returnType>
           <argCount>2</argCount>
           <args>
@@ -137,10 +137,10 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_callback</name>
-          <externalName>canvas_html_callback</externalName>
+          <name>gmh_canvas_html_callback</name>
+          <externalName>gmh_canvas_html_callback</externalName>
           <kind>11</kind>
-          <help>canvas_html_callback(id)</help>
+          <help>gmh_canvas_html_callback(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
@@ -148,19 +148,19 @@
           </args>
         </function>
         <function>
-          <name>canvas_html_add_event</name>
-          <externalName>canvas_html_add_event</externalName>
+          <name>gmh_canvas_html_add_event</name>
+          <externalName>gmh_canvas_html_add_event</externalName>
           <kind>11</kind>
-          <help>canvas_html_add_event()</help>
+          <help>gmh_canvas_html_add_event()</help>
           <returnType>2</returnType>
           <argCount>0</argCount>
           <args/>
         </function>
         <function>
-          <name>canvas_html_fire_event</name>
-          <externalName>canvas_html_fire_event</externalName>
+          <name>gmh_canvas_html_fire_event</name>
+          <externalName>gmh_canvas_html_fire_event</externalName>
           <kind>11</kind>
-          <help>canvas_html_fire_event(id)</help>
+          <help>gmh_canvas_html_fire_event(id)</help>
           <returnType>2</returnType>
           <argCount>1</argCount>
           <args>
