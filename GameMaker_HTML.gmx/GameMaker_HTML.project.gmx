@@ -4,12 +4,15 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions>
-    <extension index="2">extensions\HTML Extension</extension>
+    <extension index="0">extensions\HTML Extension</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_demo</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
   </rooms>
