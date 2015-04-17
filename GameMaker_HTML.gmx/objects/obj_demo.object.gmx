@@ -50,7 +50,7 @@ gmh_initiate();
           <argument>
             <kind>1</kind>
             <string>///YouTube Demo
-gmh_canvas_html_add(0, 0, '&lt;iframe width="' + string(room_width) + '" height="' + string(room_height) + '" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;');
+gmh_canvas_html_add(0, 0, '&lt;iframe width="' + string(room_width) + '" height="' + string(room_height) + '" src="https://www.youtube.com/embed/XiuEEw8C9kw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;');
 </string>
           </argument>
         </arguments>
