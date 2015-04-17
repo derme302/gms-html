@@ -195,6 +195,17 @@
           <argCount>0</argCount>
           <args/>
         </function>
+        <function>
+          <name>gmh_canvas_html_get_value</name>
+          <externalName>gmh_canvas_html_get_value</externalName>
+          <kind>11</kind>
+          <help>gmh_canvas_html_get_value(a)</help>
+          <returnType>1</returnType>
+          <argCount>1</argCount>
+          <args>
+            <arg>1</arg>
+          </args>
+        </function>
       </functions>
       <constants/>
     </file>
