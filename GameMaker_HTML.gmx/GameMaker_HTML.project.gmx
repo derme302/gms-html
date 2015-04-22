@@ -14,6 +14,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_demo_textbox</object>
+    <object>objects\obj_demo_youtube</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
