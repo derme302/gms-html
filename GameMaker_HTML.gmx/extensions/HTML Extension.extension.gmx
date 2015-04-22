@@ -206,6 +206,18 @@
             <arg>1</arg>
           </args>
         </function>
+        <function>
+          <name>gmh_canvas_html_set_value</name>
+          <externalName>gmh_canvas_html_set_value</externalName>
+          <kind>11</kind>
+          <help>gmh_canvas_html_set_value(id, value)</help>
+          <returnType>2</returnType>
+          <argCount>2</argCount>
+          <args>
+            <arg>2</arg>
+            <arg>1</arg>
+          </args>
+        </function>
       </functions>
       <constants/>
     </file>

@@ -37,8 +37,13 @@ function gmh_canvas_html_get_html(a) {
 }
 
 function gmh_canvas_html_get_value(a) {
-	canvas_element = document.getElementById(a); //"canvas_html_" +
-	return canvas_element.value;
+	canvas_element = document.getElementById("canvas_html_" + a);
+	return canvas_element.firstChild.value;
+}
+
+function gmh_canvas_html_set_value(a, b) {
+	canvas_element = document.getElementById("canvas_html_" + a);
+	canvas_element.firstChild.value = b;
 }
 
 function gmh_canvas_html_show(a) {
