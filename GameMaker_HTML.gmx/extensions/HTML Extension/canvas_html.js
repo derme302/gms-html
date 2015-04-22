@@ -1,5 +1,5 @@
-//GameMaker: Studio HTML Extension
-//Originally created by Schalk updated by Derme
+// GameMaker: Studio HTML Extension
+// Originally created by Schalk, updated by Derme
 var wrapper = document.createElement("div");
 var canvas = document.getElementById("canvas");
 var canvas_html = document.createElement("div");
@@ -36,6 +36,16 @@ function gmh_canvas_html_get_html(a) {
 	return canvas_element.innerHTML;
 }
 
+function gmh_canvas_html_get_value(a) {
+	canvas_element = document.getElementById("canvas_html_" + a);
+	return canvas_element.firstChild.value;
+}
+
+function gmh_canvas_html_set_value(a, b) {
+	canvas_element = document.getElementById("canvas_html_" + a);
+	canvas_element.firstChild.value = b;
+}
+
 function gmh_canvas_html_show(a) {
 	canvas_element = document.getElementById("canvas_html_" + a);
 	canvas_element.style.display = "inline";
@@ -48,7 +58,7 @@ function gmh_canvas_html_hide(a) {
 
 function gmh_canvas_html_remove(a) {
 	canvas_html = document.getElementById("canvas_html");
-	canvas_element = document.getElementById("canvas_html_"+a);
+	canvas_element = document.getElementById("canvas_html_" + a);
 	canvas_html.removeChild(canvas_element);
 }
 
