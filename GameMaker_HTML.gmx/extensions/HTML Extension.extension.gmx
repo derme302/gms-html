@@ -218,6 +218,15 @@
             <arg>1</arg>
           </args>
         </function>
+        <function>
+          <name>gmh_canvas_html_active_element</name>
+          <externalName>gmh_canvas_html_active_element</externalName>
+          <kind>11</kind>
+          <help>gmh_canvas_html_active_element()</help>
+          <returnType>2</returnType>
+          <argCount>-1</argCount>
+          <args/>
+        </function>
       </functions>
       <constants/>
     </file>
