@@ -24,13 +24,13 @@ This extension package provides HTML functionality for Game Maker HTML5 games. T
 * gmh_canvas_html_set_value(id, value); - Sets the value from a HTML object like a textbox, be careful to use this function only with objects that have values
 
 ###Live Example
-Currently unavailable
+Availiable on [Derme's Coffee](http://derme.coffee/html5/gmh/index.html)
 
 ###Download
-Avaiable on [GitHub](https://github.com/derme302/gmh)
+Available on [GitHub](https://github.com/derme302/gmh)
 
 ###Online Documentation
-Currently unavailable
+[Wiki (Work in Progress)](https://github.com/derme302/gmh/wiki)
 
 ###Compatibility
 I haven't tested compatability. Please feel free to post what browsers this work/don't work on.
