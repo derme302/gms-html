@@ -5,6 +5,7 @@ var canvas = document.getElementById("canvas");
 var canvas_html = document.createElement("div");
 var canvas_html_callbacks = [];
 var canvas_html_id = 0;
+var initialised = false;
 
 function gmh_canvas_html_set_y(a, b) {
 	canvas_element = document.getElementById("canvas_html_" + a);
@@ -93,11 +94,14 @@ function gmh_canvas_html_callback(a) {
 }
 
 function gmh_initiate() {
-	canvas_html.setAttribute("id","canvas_html");
-	canvas_html.style.position = "absolute";
-	canvas_html.style.left = "0px";
-	canvas_html.style.top = "0px";
-	canvas.parentNode.insertBefore(wrapper, canvas);
-	wrapper.appendChild(canvas);
-	wrapper.appendChild(canvas_html);
+	if (!initialised) {
+		canvas_html.setAttribute("id","canvas_html");
+		canvas_html.style.position = "absolute";
+		canvas_html.style.left = "0px";
+		canvas_html.style.top = "0px";
+		canvas.parentNode.insertBefore(wrapper, canvas);
+		wrapper.appendChild(canvas);
+		wrapper.appendChild(canvas_html);
+		initialised = true;
+	}
 }
