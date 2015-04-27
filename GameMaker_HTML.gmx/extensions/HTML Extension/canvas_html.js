@@ -76,6 +76,10 @@ function gmh_canvas_html_add(a, b, c) {
 	return canvas_html_id;
 }
 
+function gmh_canvas_html_active_element() {
+    return document.activeElement.tagName;
+}
+
 function gmh_canvas_html_fire_event(a) {
 	canvas_html_callbacks[a]=true;
 }
