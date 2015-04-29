@@ -20,8 +20,11 @@ This extension package provides HTML functionality for Game Maker HTML5 games. T
 * gmh_canvas_html_add_event() - Returns the id of the event to be used for other functions. This function must be called first before being able to use events.
 * gmh_canvas_html_callback(id) - This function will return true if the event with the given id has been triggered. If it hasn't been trigger it will return false. This will usually go in the step event of an object.
 * gmh_canvas_html_fire_event(id) - This function is a bit tricky. This "fires" an event with the given id. You would expect this to be in your html code, however can also be used in your game maker project.
-* gmh_canvas_html_get_value(id); - Gets the value from a HTML object like a textbox, be careful to use this function only with objects that have values
-* gmh_canvas_html_set_value(id, value); - Sets the value from a HTML object like a textbox, be careful to use this function only with objects that have values
+* gmh_canvas_html_get_value(id) - Gets the value from a HTML object like a textbox, be careful to use this function only with objects that have values
+* gmh_canvas_html_set_value(id, value) - Sets the value from a HTML object like a textbox, be careful to use this function only with objects that have values
+* gmh_canvas_html_active_element() - Returns the tag of the element that is currently active
+* gmh_canvas_html_set_checked(id, value) - Sets the value of a checkbox
+* gmh_canvas_html_get_checked(id) - Gets the value of a checkbox
 
 ###Live Example
 Availiable on [Derme's Coffee](http://derme.coffee/html5/gmh/index.html)
