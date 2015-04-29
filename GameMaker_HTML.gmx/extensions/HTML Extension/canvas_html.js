@@ -38,13 +38,23 @@ function gmh_canvas_html_get_html(a) {
 }
 
 function gmh_canvas_html_get_value(a) {
-	canvas_element = document.getElementById("canvas_html_" + a);
-	return canvas_element.firstChild.value;
+	canvas_element = document.getElementById("canvas_html_" + a).firstChild;
+	return canvas_element.value;
 }
 
 function gmh_canvas_html_set_value(a, b) {
-	canvas_element = document.getElementById("canvas_html_" + a);
-	canvas_element.firstChild.value = b;
+	canvas_element = document.getElementById("canvas_html_" + a).firstChild;
+	canvas_element.value = b;
+}
+
+function gmh_canvas_html_get_checked(a) {
+	canvas_element = document.getElementById("canvas_html_" + a).firstChild;
+	return canvas_element.checked;
+}
+
+function gmh_canvas_html_set_checked(a, b) {
+	canvas_element = document.getElementById("canvas_html_" + a).firstChild;
+	canvas_element.checked = b;
 }
 
 function gmh_canvas_html_show(a) {
@@ -77,7 +87,7 @@ function gmh_canvas_html_add(a, b, c) {
 }
 
 function gmh_canvas_html_active_element() {
-    return document.activeElement.tagName;
+    return document.activeElement.tagName.toLowerCase();
 }
 
 function gmh_canvas_html_fire_event(a) {

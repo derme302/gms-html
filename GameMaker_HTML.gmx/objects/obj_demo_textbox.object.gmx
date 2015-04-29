@@ -56,8 +56,17 @@ textbox = false;
           <argument>
             <kind>1</kind>
             <string>///Get text from textbox
-if (textbox)
+if (gmh_canvas_html_active_element() == "input") {
     txt = gmh_canvas_html_get_value(_id);
+    
+    /* Awesome new function
+    Remember to disable to once you've finsihed with the textbox
+    Else your game won't be able to recieve input! */
+    browser_input_capture(false);
+}    
+else {
+    browser_input_capture(true);
+}
 </string>
           </argument>
         </arguments>
@@ -90,11 +99,6 @@ gmh_canvas_html_set_value(_id, "Pizza");
 
 // The textbox has been created
 textbox = true;
-
-/* Awesome new function
-   Remember to disable to once you've finsihed with the textbox
-   Else your game won't be able to recieve input! */
-browser_input_capture(false);
 </string>
           </argument>
         </arguments>
