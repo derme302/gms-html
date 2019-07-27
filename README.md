@@ -5,7 +5,8 @@ Originally created by [Schalk](http://gmc.yoyogames.com/index.php?showuser=99569
 
 This extension package provides HTML functionality for Game Maker HTML5 games. That means you can add snippets of HTML code where you want it. The extension also provides functionality to connect the HTML elements to your code, for example when you press a button made in HTML it can make your character jump.
 
-###Functions
+## Functions
+```javascript
 * gmh_initiate - Activates the extension
 * gmh_canvas_html_add(x,y,html) - Creates a new html element and positions it accordingly. The function returns an integer as an id that must be used in all other functions to access the particular html element.
 * gmh_canvas_html_remove(id) - Destroys the html element, do this when you are done using the element.
@@ -25,15 +26,13 @@ This extension package provides HTML functionality for Game Maker HTML5 games. T
 * gmh_canvas_html_active_element() - Returns the tag of the element that is currently active
 * gmh_canvas_html_set_checked(id, value) - Sets the value of a checkbox
 * gmh_canvas_html_get_checked(id) - Gets the value of a checkbox
+```
 
-###Live Example
+## Live Example
 Availiable on [Derme's Coffee](http://derme.coffee/html5/gmh/index.html)
 
-###Download
-Available on [GitHub](https://github.com/derme302/gmh)
-
-###Online Documentation
+## Online Documentation
 [Wiki (Work in Progress)](https://github.com/derme302/gmh/wiki)
 
-###Compatibility
+## Compatibility
 I haven't tested compatability. Please feel free to post what browsers this work/don't work on.
