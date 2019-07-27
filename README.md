@@ -1,9 +1,15 @@
 GameMaker: Studio - HTML Extension
 ===
 
-Originally created by [Schalk](http://gmc.yoyogames.com/index.php?showuser=99569) updated by [Derme](http://gmc.yoyogames.com/index.php?showuser=125302)
+GM: HTML is an extension for GameMaker: Studio that makes it possible to add snippets of HTML code to your HTML5 games. It also allows you to connect any elements you create back to your code, so for example you can press a HTML button and make a character jump.
 
-This extension package provides HTML functionality for Game Maker HTML5 games. That means you can add snippets of HTML code where you want it. The extension also provides functionality to connect the HTML elements to your code, for example when you press a button made in HTML it can make your character jump.
+## How it works
+
+I’ll write up more later about the specifics, but basically it uses JavaScript to update the pages HTML code.
+
+## What can the project do right now?
+
+The extension still has some bugs, especially when handling keyboard input due to the way that the GameMaker engine works. I’m looking at adding in new features for these areas, however they require a lot of work to write a work-around. You can find a complete list of the functions below. Or the live demo to see it in action.
 
 ## Functions
 ```javascript
@@ -27,6 +33,15 @@ gmh_canvas_html_active_element(); // Returns the tag of the element that is curr
 gmh_canvas_html_set_checked(id, value); // Sets the value of a checkbox
 gmh_canvas_html_get_checked(id); // Gets the value of a checkbox
 ```
+## Authors and Contributors
+
+Originally this project was developed by Schalk, but unfortunately changes to the GameMaker runner broke it, this updated version is based on the original source. At the moment the project is just maintained by me ([@derme302](https://twitter.com/derme302)), but if you would like to contribute feel free to do so!
+
+The project is currently under the MIT Licence (MIT)
+
+## Support or Contact
+
+Having trouble with GM: HTML? Either try the thread on the GameMaker Community or hit me up on Twitter. Also you could try the online documentation, however the library isn’t fully documented yet.
 
 ## Live Example
 Availiable on [Derme's Coffee](http://derme.coffee/html5/gmh/index.html)
@@ -36,3 +51,7 @@ Availiable on [Derme's Coffee](http://derme.coffee/html5/gmh/index.html)
 
 ## Compatibility
 I haven't tested compatability. Please feel free to post what browsers this work/don't work on.
+
+## Buy (Supports future development)
+
+[GameMaker Marketplace](https://marketplace.yoyogames.com/assets/1530/gmh-canvas-companion)
